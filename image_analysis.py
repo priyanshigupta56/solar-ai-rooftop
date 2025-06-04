@@ -47,6 +47,7 @@ def analyze_image(image: Image.Image):
             }
         ],
         "max_tokens": 300 # reduce to avoid 402 token limit errors
+
     }
 
     headers = {
